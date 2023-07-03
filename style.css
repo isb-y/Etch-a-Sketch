@@ -1,0 +1,18 @@
+:root {
+    --grid-size: 16;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px; /* Adjust the width as needed */
+}
+
+.grid-square {
+    width: calc(960px / var(--grid-size));
+    height: calc(960px / var(--grid-size));
+    border: 1px solid #000;
+    box-sizing: border-box;
+    background-color: #fff;
+}
